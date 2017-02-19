@@ -8,9 +8,8 @@ The document goes on to explain that each button to be pressed can be found by s
 
 You can't hold it much longer, so you decide to figure out the code as you walk to the bathroom. You picture a keypad like this:
 
-| Left | Middle | Right |
-| --- | --- | --- |
 | 1 | 2 | 3 |
+| --- | --- | --- |
 | 4 | 5 | 6 |
 | 7 | 8 | 9 |
 Suppose your instructions are:
@@ -36,8 +35,8 @@ Your puzzle input is the instructions from the document you found at the front d
 
 You finally arrive at the bathroom (it's a several minute walk from the lobby so visitors can behold the many fancy conference rooms and water coolers on this floor) and go to punch in the code. Much to your bladder's dismay, the keypad is not at all like you imagined it. Instead, you are confronted with the result of hundreds of man-hours of bathroom-keypad-design meetings:
 
-| --- | --- | --- | --- | --- |
 |   |   | 1 |   |   |
+| --- | --- | --- | --- | --- |
 |   | 2 | 3 | 4 |   |
 | 5 | 6 | 7 | 8 | 9 |
 |   | A | B | C |   |
