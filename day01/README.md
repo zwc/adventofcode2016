@@ -1,4 +1,4 @@
---- Day 1: No Time for a Taxicab ---
+## Day 1: No Time for a Taxicab
 
 Santa's sleigh uses a very high-precision clock to guide its movements, and the clock's oscillator is regulated by stars.
 Unfortunately, the stars have been stolen... by the Easter Bunny. To save Christmas, Santa needs you to retrieve all fifty
@@ -25,9 +25,9 @@ R2, R2, R2 leaves you 2 blocks due South of your starting position, which is 2 b
 R5, L5, R5, R3 leaves you 12 blocks away.
 How many blocks away is Easter Bunny HQ?
 
-Correct answer: 250
+> Correct answer: 250
 
---- Part Two ---
+## Part Two
 
 Then, you notice the instructions continue on the back of the Recruiting Document. Easter Bunny HQ is actually at the first
 location you visit twice.
@@ -36,4 +36,4 @@ For example, if your instructions are R8, R4, R4, R8, the first location you vis
 
 How many blocks away is the first location you visit twice?
 
-Correct answer: 151
+> Correct answer: 151
