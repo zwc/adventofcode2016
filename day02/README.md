@@ -8,6 +8,7 @@ The document goes on to explain that each button to be pressed can be found by s
 
 You can't hold it much longer, so you decide to figure out the code as you walk to the bathroom. You picture a keypad like this:
 
+| Left | Middle | Right |
 | --- | --- | --- |
 | 1 | 2 | 3 |
 | 4 | 5 | 6 |
