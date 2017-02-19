@@ -53,7 +53,7 @@ So, given the actual keypad layout, the code would be 5DB3.
 
 Using the same instructions in your puzzle input, what is the correct bathroom code?
 
-Your puzzle answer was 563B6.
+> Your puzzle answer was 563B6.
 
 
 
