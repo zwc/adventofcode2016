@@ -1,4 +1,4 @@
---- Day 22: Grid Computing ---
+## Day 22: Grid Computing
 
 You gain access to a massive storage cluster arranged in a grid; each storage node is only connected to the four nodes directly adjacent to it (three if the node is on an edge, two if it's in a corner).
 
@@ -21,7 +21,7 @@ How many viable pairs of nodes are there?
 
 The first half of this puzzle is complete! It provides one gold star: *
 
---- Part Two ---
+## Part Two
 
 Now that you have a better understanding of the grid, it's time to get to work.
 
@@ -29,6 +29,7 @@ Your goal is to gain access to the data which begins in the node with y=0 and th
 
 For example, suppose you have the following grid:
 
+```
 Filesystem            Size  Used  Avail  Use%
 /dev/grid/node-x0-y0   10T    8T     2T   80%
 /dev/grid/node-x0-y1   11T    6T     5T   54%
@@ -39,6 +40,8 @@ Filesystem            Size  Used  Avail  Use%
 /dev/grid/node-x2-y0   10T    6T     4T   60%
 /dev/grid/node-x2-y1    9T    8T     1T   88%
 /dev/grid/node-x2-y2    9T    6T     3T   66%
+```
+
 In this example, you have a storage grid 3 nodes wide and 3 nodes tall. The node you can access directly, node-x0-y0, is almost full. The node containing the data you want to access, node-x2-y0 (because it has y=0 and the highest x value), contains 6 terabytes of data - enough to fit on your node, if only you could make enough space to move it there.
 
 Fortunately, node-x1-y1 looks like it has enough free space to enable you to move some of this data around. In fact, it seems like all of the nodes have enough space to hold any node's data (except node-x0-y2, which is much larger, very full, and not moving any time soon). So, initially, the grid's capacities and connections look like this:

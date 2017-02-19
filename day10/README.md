@@ -1,4 +1,4 @@
---- Day 10: Balance Bots ---
+## Day 10: Balance Bots
 
 You come upon a factory in which many robots are zooming around handing small microchips to each other.
 
@@ -24,10 +24,10 @@ In the end, output bin 0 contains a value-5 microchip, output bin 1 contains a v
 
 Based on your instructions, what is the number of the bot that is responsible for comparing value-61 microchips with value-17 microchips?
 
-Your puzzle answer was 157.
+> Your puzzle answer was 157.
 
---- Part Two ---
+## Part Two
 
 What do you get if you multiply together the values of one chip in each of outputs 0, 1, and 2?
 
-Your puzzle answer was 1085.
+> Your puzzle answer was 1085.

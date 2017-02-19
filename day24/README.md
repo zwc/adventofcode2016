@@ -1,4 +1,4 @@
---- Day 24: Air Duct Spelunking ---
+## Day 24: Air Duct Spelunking
 
 You've finally met your match; the doors that provide access to the roof are locked tight, and all of the controls and related electronics are inaccessible. You simply can't reach them.
 
@@ -10,11 +10,14 @@ You extract the duct layout for this area from some blueprints you acquired and 
 
 For example, suppose you have a map like the following:
 
+```
 ###########
 #0.1.....2#
 #.#######.#
 #4.......3#
 ###########
+```
+
 To reach all of the points of interest as quickly as possible, you would have the robot take the following path:
 
 0 to 4 (2 steps)

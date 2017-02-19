@@ -1,4 +1,4 @@
---- Day 23: Safe Cracking ---
+## Day 23: Safe Cracking
 
 This is one of the top floors of the nicest tower in EBHQ. The Easter Bunny's private office is here, complete with a safe hidden behind a painting, and who wouldn't hide a star in a safe behind a painting?
 
@@ -19,6 +19,7 @@ If toggling produces an invalid instruction (like cpy 1 2) and an attempt is lat
 If tgl toggles itself (for example, if a is 0, tgl a would target itself and become inc a), the resulting instruction is not executed until the next time it is reached.
 For example, given this program:
 
+```
 cpy 2 a
 tgl a
 tgl a
@@ -26,11 +27,14 @@ tgl a
 cpy 1 a
 dec a
 dec a
-cpy 2 a initializes register a to 2.
-The first tgl a toggles an instruction a (2) away from it, which changes the third tgl a into inc a.
-The second tgl a also modifies an instruction 2 away from it, which changes the cpy 1 a into jnz 1 a.
-The fourth line, which is now inc a, increments a to 3.
-Finally, the fifth line, which is now jnz 1 a, jumps a (3) instructions ahead, skipping the dec a instructions.
+```
+
+* cpy 2 a initializes register a to 2.
+* The first tgl a toggles an instruction a (2) away from it, which changes the third tgl a into inc a.
+* The second tgl a also modifies an instruction 2 away from it, which changes the cpy 1 a into jnz 1 a.
+* The fourth line, which is now inc a, increments a to 3.
+* Finally, the fifth line, which is now jnz 1 a, jumps a (3) instructions ahead, skipping the dec a instructions.
+
 In this example, the final value in register a is 3.
 
 The rest of the electronics seem to place the keypad entry (the number of eggs, 7) in register a, run the code, and then send the value left in register a to the safe.
@@ -39,7 +43,7 @@ What value should be sent to the safe?
 
 > Your puzzle answer was 14065.
 
---- Part Two ---
+## Part Two
 
 The safe doesn't open, but it does make several angry noises to express its frustration.
 

@@ -1,4 +1,4 @@
---- Day 25: Clock Signal ---
+## Day 25: Clock Signal
 
 You open the door and find yourself on the roof. The city sprawls away from you for miles and miles.
 

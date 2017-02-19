@@ -1,4 +1,4 @@
---- Day 18: Like a Rogue ---
+## Day 18: Like a Rogue
 
 As you enter this room, you hear a loud click! Some of the tiles in the floor here seem to be pressure plates for traps, and the trap you just triggered has run out of... whatever it tried to do to you. You doubt you'll be so lucky next time.
 
@@ -8,8 +8,11 @@ The type of tile (trapped or safe) in each row is based on the types of the tile
 
 For example, suppose you know the first row (with tiles marked by letters) and want to determine the next row (with tiles marked by numbers):
 
+```
 ABCDE
 12345
+```
+
 The type of tile 2 is based on the types of tiles A, B, and C; the type of tile 5 is based on tiles D, E, and an imaginary "safe" tile. Let's call these three tiles from the previous row the left, center, and right tiles, respectively. Then, a new tile is a trap only in one of the following situations:
 
 Its left and center tiles are traps, but its right tile is not.
@@ -26,11 +29,15 @@ The third character considers .^^, which matches the second trap rule: its cente
 The last two characters in this new row match the first and third rules, respectively, and so they are both also traps, ^.
 After these steps, we now know the next row of tiles in the room: .^^^^. Then, we continue on to the next row, using the same rules, and get ^^..^. After determining two new rows, our map looks like this:
 
+```
 ..^^.
 .^^^^
 ^^..^
+```
+
 Here's a larger example with ten tiles per row and ten rows:
 
+```
 .^^.^.^^^^
 ^^^...^..^
 ^.^^.^.^^.
@@ -41,13 +48,15 @@ Here's a larger example with ten tiles per row and ten rows:
 ^..^^^^.^^
 .^^^..^.^^
 ^^.^^^..^^
+```
+
 In ten rows, this larger example has 38 safe tiles.
 
 Starting with the map in your puzzle input, in a total of 40 rows (including the starting row), how many safe tiles are there?
 
 > Your puzzle answer was 2016.
 
---- Part Two ---
+## Part Two
 
 How many safe tiles are there in a total of 400000 rows?
 
