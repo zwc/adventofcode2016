@@ -1,0 +1,28 @@
+{
+  "name": "advent2016",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "combinations": "^0.1.1",
+    "combinations-js": "^1.1.2",
+    "highland": "^2.10.1",
+    "immutable": "^3.8.1",
+    "md5": "^2.2.1",
+    "md5-jkmyers": "^0.0.1",
+    "most": "^1.2.2",
+    "ramda": "^0.23.0",
+    "snake": "^0.0.1",
+    "spark-md5": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "description": ""
+}
